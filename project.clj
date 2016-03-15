@@ -23,21 +23,58 @@
                  [luminus-nrepl "0.1.4"]
                  [org.webjars/webjars-locator-jboss-vfs "0.1.0"]
                  [luminus-immutant "0.1.9"]
-                 [luminus-log4j "0.1.3"]]
+                 [org.clojure/clojurescript "1.7.228" :scope "provided"]
+                 [reagent "0.5.1"]
+                 [reagent-forms "0.5.21"]
+                 [reagent-utils "0.1.7"]
+                 [secretary "1.2.3"]
+                 [org.clojure/core.async "0.2.374"]
+                 [cljs-ajax "0.5.4"]
+                 [luminus-log4j "0.1.3"]
+                 ;; Other
+                 [garden "1.3.2"]
+                 [thinktopic/greenhouse "0.1.1"]]
 
   :min-lein-version "2.0.0"
 
   :jvm-opts ["-server" "-Dconf=.lein-env"]
-  :source-paths ["src/clj"]
-  :resource-paths ["resources"]
+  :source-paths ["src/clj" "src/cljc"]
+  :resource-paths ["resources" "target/cljsbuild"]
 
   :main portfolio-clojure.core
 
-  :plugins [[lein-cprop "1.0.1"]]
+  :plugins [[lein-cprop "1.0.1"]
+            [lein-cljsbuild "1.1.1"]
+            [lein-garden "0.2.6"]]
+
+  :clean-targets ^{:protect false}
+  [:target-path [:cljsbuild :builds :app :compiler :output-dir] [:cljsbuild :builds :app :compiler :output-to]]
+  :cljsbuild
+  {:builds
+   {:app
+    {:source-paths ["src/cljc" "src/cljs"]
+     :compiler
+     {:output-to "target/cljsbuild/public/js/app.js"
+      :output-dir "target/cljsbuild/public/js/out"
+      :externs ["react/externs/react.js"]
+      :pretty-print true}}}}
+
   :target-path "target/%s/"
   :profiles
   {:uberjar {:omit-source true
-             
+
+              :prep-tasks ["compile" ["cljsbuild" "once"]
+                                     ["garden" "once"]]
+              :cljsbuild
+              {:builds
+               {:app
+                {:source-paths ["env/prod/cljs"]
+                 :compiler
+                 {:optimizations :advanced
+                  :pretty-print false
+                  :closure-warnings
+                  {:externs-validation :off :non-standard-jsdoc :off}}}}}
+
              :aot :all
              :uberjar-name "portfolio-clojure.jar"
              :source-paths ["env/prod/clj"]
@@ -47,14 +84,49 @@
    :project/dev  {:dependencies [[prone "1.0.2"]
                                  [ring/ring-mock "0.3.0"]
                                  [ring/ring-devel "1.4.0"]
-                                 [pjstadig/humane-test-output "0.7.1"]]
-                  
-                  
+                                 [pjstadig/humane-test-output "0.7.1"]
+                                 [lein-figwheel "0.5.0-6"]
+                                 [lein-doo "0.1.6"]
+                                 [com.cemerick/piggieback "0.2.2-SNAPSHOT"]
+                                 [leiningen-core "2.6.1"]]
+                  :plugins [[lein-figwheel "0.5.0-6"] [lein-doo "0.1.6"] [org.clojure/clojurescript "1.7.228"]]
+                   :cljsbuild
+                   {:builds
+                    {:app
+                     {:source-paths ["env/dev/cljs"]
+                      :compiler
+                      {:main "portfolio-clojure.app"
+                       :asset-path "/js/out"
+                       :optimizations :none
+                       :source-map true}}
+                     :test
+                     {:source-paths ["src/cljc" "src/cljs" "test/cljs"]
+                      :compiler
+                      {:output-to "target/test.js"
+                       :main "portfolio-clojure.doo-runner"
+                       :optimizations :whitespace
+                       :pretty-print true}}}}
+
+                  :figwheel
+                  {:http-server-root "public"
+                   :nrepl-port 7002
+                   :css-dirs ["resources/public/css"]
+                   :ring-handler portfolio-clojure.handler/app}
+                  :doo {:build "test"}
                   :source-paths ["env/dev/clj" "test/clj"]
                   :resource-paths ["env/dev/resources"]
-                  :repl-options {:init-ns use}
+                  :repl-options {:init-ns user
+                                 :nrepl-middleware
+                                 [cemerick.piggieback/wrap-cljs-repl]}
                   :injections [(require 'pjstadig.humane-test-output)
                                (pjstadig.humane-test-output/activate!)]}
    :project/test {:resource-paths ["env/dev/resources" "env/test/resources"]}
    :profiles/dev {}
-   :profiles/test {}})
+   :profiles/test {}}
+
+  ;; Plugins
+  :garden {:builds [{:id "screen"
+                     :source-paths ["src/styles"]
+                     :stylesheet portfolio-clojure.styles.core/screen
+                     :compiler {:output-to "resources/public/css/screen.css"
+                                :pretty-print? true}}]})

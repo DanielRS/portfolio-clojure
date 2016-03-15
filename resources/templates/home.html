@@ -1,14 +1,54 @@
 {% extends "base.html" %}
-{% block content %}
-  <div class="jumbotron">
-    <h1>Welcome to portfolio-clojure</h1>
-    <p>Time to start building your site!</p>
-    <p><a class="btn btn-primary btn-lg" href="http://luminusweb.net">Learn more &raquo;</a></p>
-  </div>
 
-  <div class="row">
-    <div class="span12">
-    {{docs|markdown}}
+{% block content %}
+<section id="mega-brand" class="parallax-bg">
+  <div class="mega-brand__content">
+    <div class="mega-brand__header">
+      <h1><strong>Daniel</strong>Rivas</h1>
+      <code id="tagline">I'm a programmer</code>
     </div>
+    <p>Amet repudiandae accusantium eligendi laudantium iusto earum ab nobis cupiditate quos exercitationem unde praesentium eum cum! Suscipit placeat aspernatur culpa accusamus delectus culpa blanditiis deserunt quam tenetur dolor. Iste esse? Amet culpa maiores ducimus velit est. Labore est assumenda est quidem sit libero? Quae soluta fuga officia temporibus ex omnis explicabo dignissimos? Amet voluptatum odit sapiente rerum recusandae aperiam. Ea.</p>
   </div>
+</section>
+
+<section class="section">
+
+  <div class="container">
+    <h2>Some of my projects</h2>
+    <p>Dolor ut praesentium sequi unde obcaecati ducimus facere aliquam. Aspernatur temporibus quasi iste laboriosam ad odit, doloremque pariatur in molestias at debitis. Veritatis eius exercitationem voluptatem facilis veritatis ratione fugiat!<p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Recent blog entries</h2>
+    <section class="blog-entries blog-entries--simple">
+      <article class="post">
+        <h1><a href="#">Entry title</a></h2>
+        <div class="post__metadata">
+          <span class="post__author">by <a href="#">Daniel Rivas</a></span>
+          <span class="post__date">March 10th, 2016</span>
+        </div>
+        <p>Elit excepturi praesentium natus a hic consequatur eaque natus. Doloremque officiis expedita commodi nulla earum ipsa natus. Vel fugiat dolorum numquam placeat illum qui est qui repellat nesciunt consequatur dicta. <a href="#">Read more...</a></p>
+      </article>
+      <article class="post">
+        <h1><a href="#">A long entry title</a></h2>
+        <div class="post__metadata">
+          <span class="post__author">by <a href="#">Daniel Rivas</a></span>
+          <span class="post__date">March 10th, 2016</span>
+        </div>
+        <p>Elit excepturi praesentium natus a hic consequatur eaque natus. Doloremque officiis expedita commodi nulla earum ipsa natus. Vel fugiat dolorum numquam placeat illum qui est qui repellat nesciunt consequatur dicta. <a href="#">Read more...</a></p>
+      </article>
+      <article class="post">
+        <h1><a href="#">A very-super-duper long entry title: with more words</a></h2>
+        <div class="post__metadata">
+          <span class="post__author">by <a href="#">Daniel Rivas</a></span>
+          <span class="post__date">March 10th, 2016</span>
+        </div>
+        <p>Elit excepturi praesentium natus a hic consequatur eaque natus. Doloremque officiis expedita commodi nulla earum ipsa natus. Vel fugiat dolorum numquam placeat illum qui est qui repellat nesciunt consequatur dicta. <a href="#">Read more...</a></p>
+      </article>
+    </section>
+
+  </div>
+</section>
 {% endblock %}

@@ -1,6 +1,6 @@
 # portfolio-clojure
 
-generated using Luminus version "2.9.10.21"
+generated using Luminus version "2.9.10.23"
 
 FIXME
 
@@ -15,6 +15,13 @@ You will need [Leiningen][1] 2.0 or above installed.
 To start a web server for the application, run:
 
     lein run
+
+
+## Inspiration
+
+http://www.adhamdannaway.com/
+http://haraldurthorleifsson.com/
+http://keithclark.co.uk/
 
 ## License
 

@@ -1,12 +1,11 @@
-(ns portfolio-clojure.routes.home
+(ns portfolio-clojure.routes.blog
   (:require [portfolio-clojure.layout :as layout]
             [compojure.core :refer [defroutes GET]]
             [ring.util.http-response :as response]
             [clojure.java.io :as io]))
 
-(defn home-page []
-  (layout/render
-    "home.html" {:docs (-> "docs/docs.md" io/resource slurp)}))
+(defn blog-page []
+  (layout/render "blog.html"))
 
-(defroutes home-routes
-  (GET "/" [] (home-page)))
+(defroutes blog-routes
+  (GET "/blog" [] (blog-page)))

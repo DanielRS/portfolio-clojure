@@ -1,5 +1,6 @@
 (ns user
   (:require [mount.core :as mount]
+            [portfolio-clojure.figwheel :refer [start-fw stop-fw cljs]]
             portfolio-clojure.core))
 
 (defn start []

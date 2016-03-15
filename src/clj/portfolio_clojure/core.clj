@@ -14,7 +14,8 @@
   [["-p" "--port PORT" "Port number"
     :parse-fn #(Integer/parseInt %)]])
 
-(mount/defstate http-server
+(mount/defstate ^{:on-reload :noop}
+                http-server
                 :start
                 (http/start
                   (-> env
@@ -23,7 +24,8 @@
                 :stop
                 (http/stop http-server))
 
-(mount/defstate repl-server
+(mount/defstate ^{:on-reload :noop}
+                repl-server
                 :start
                 (when-let [nrepl-port (env :nrepl-port)]
                   (repl/start {:port nrepl-port}))

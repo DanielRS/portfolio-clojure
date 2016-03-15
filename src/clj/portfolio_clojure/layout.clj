@@ -11,6 +11,27 @@
 (parser/set-resource-path!  (clojure.java.io/resource "templates"))
 (parser/add-tag! :csrf-field (fn [_ _] (anti-forgery-field)))
 (filters/add-filter! :markdown (fn [content] [:safe (md-to-html-string content)]))
+(filters/add-filter! :top-level (fn [uri] (first (clojure.string/split uri #"/"))))
+
+(def menu [{:caption "Home"
+            :page "home.html"
+            :top-level "home.html"
+            :route "/"}
+
+           {:caption "Projects"
+            :page "projects/projects.html"
+            :top-level "projects"
+            :route (str "/" "projects")}
+
+           {:caption "Contact"
+            :page "contact.html"
+            :top-level "contact.html"
+            :route (str "/" "contact")}
+
+           {:caption "Blog"
+            :page "blog.html"
+            :top-level "blog.html"
+            :route (str "/" "blog")}])
 
 (defn render
   "renders the HTML template located relative to resources/templates"
@@ -20,6 +41,7 @@
       (parser/render-file
         template
         (assoc params
+          :menu menu
           :page template
           :csrf-token *anti-forgery-token*
           :servlet-context *app-context*)))
