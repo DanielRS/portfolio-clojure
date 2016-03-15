@@ -1,4 +1,4 @@
-(ns portfolio-clojure.styles.footer
+(ns portfolio-clojure.footer
   (:require [garden.def :refer [defstyles]]
             [garden.units :refer [em rem px]]))
 

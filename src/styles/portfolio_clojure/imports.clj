@@ -1,4 +1,4 @@
-(ns portfolio-clojure.styles.imports
+(ns portfolio-clojure.imports
   (:require [garden.def :refer [defstyles defcssfn]]
             [garden.stylesheet :refer [at-import]]))
 

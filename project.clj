@@ -45,7 +45,7 @@
 
   :plugins [[lein-cprop "1.0.1"]
             [lein-cljsbuild "1.1.1"]
-            [lein-garden "0.2.6"]]
+            [lein-garden "0.2.4"]]
 
   :clean-targets ^{:protect false}
   [:target-path [:cljsbuild :builds :app :compiler :output-dir] [:cljsbuild :builds :app :compiler :output-to]]
@@ -63,8 +63,8 @@
   :profiles
   {:uberjar {:omit-source true
 
-              :prep-tasks ["compile" ["cljsbuild" "once"]
-                                     ["garden" "once"]]
+              :prep-tasks ["compile" ["cljsbuild" "once"]]
+
               :cljsbuild
               {:builds
                {:app
@@ -127,6 +127,6 @@
   ;; Plugins
   :garden {:builds [{:id "screen"
                      :source-paths ["src/styles"]
-                     :stylesheet portfolio-clojure.styles.core/screen
+                     :stylesheet portfolio-clojure.core/screen
                      :compiler {:output-to "resources/public/css/screen.css"
                                 :pretty-print? true}}]})

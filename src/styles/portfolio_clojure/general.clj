@@ -1,8 +1,8 @@
-(ns portfolio-clojure.styles.general
+(ns portfolio-clojure.general
   (:require [garden.def :refer [defstyles]]
             [garden.units :refer [em, rem, px]]
-            [portfolio-clojure.styles.util :refer :all]
-            [portfolio-clojure.styles.settings :as settings]))
+            [portfolio-clojure.util :refer :all]
+            [portfolio-clojure.settings :as settings]))
 
 (defstyles screen
   [:body {:margin 0 :padding 0}

@@ -1,10 +1,10 @@
-(ns portfolio-clojure.styles.blog
+(ns portfolio-clojure.blog
   (:require [garden.def :refer [defstyles]]
             [garden.stylesheet :refer [at-media]]
             [garden.units :refer [em rem px]]
             [greenhouse.grid :refer [column]]
-            [portfolio-clojure.styles.settings :as settings]
-            [portfolio-clojure.styles.util :refer [clearfix]]))
+            [portfolio-clojure.settings :as settings]
+            [portfolio-clojure.util :refer [clearfix]]))
 
 (defstyles screen
   [:.blog-entries

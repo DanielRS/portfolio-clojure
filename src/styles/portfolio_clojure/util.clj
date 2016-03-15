@@ -1,7 +1,7 @@
-(ns portfolio-clojure.styles.util
+(ns portfolio-clojure.util
   (:require [garden.def :refer [defstyles]]
             [garden.stylesheet :refer [at-media]]
-            [portfolio-clojure.styles.settings :as settings]))
+            [portfolio-clojure.settings :as settings]))
 
 (def clearfix
   "micro-clearfix, see: http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best"

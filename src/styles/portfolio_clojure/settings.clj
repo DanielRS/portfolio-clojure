@@ -1,4 +1,4 @@
-(ns portfolio-clojure.styles.settings
+(ns portfolio-clojure.settings
   (:require [garden.units :refer [px]]))
 
 (def break-s (px 468))

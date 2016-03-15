@@ -1,4 +1,4 @@
-(ns portfolio-clojure.styles.text
+(ns portfolio-clojure.text
   (:require [garden.def :refer [defstyles]]
             [garden.units :refer [em rem]]
             [garden.stylesheet :refer [at-import]]))

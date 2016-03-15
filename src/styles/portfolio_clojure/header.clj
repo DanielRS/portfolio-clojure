@@ -1,9 +1,9 @@
-(ns portfolio-clojure.styles.header
+(ns portfolio-clojure.header
   (:require [garden.def :refer [defstyles]]
             [garden.stylesheet :refer [at-media]]
             [garden.units :refer [em rem px]]
-            [portfolio-clojure.styles.settings :as settings]
-            [portfolio-clojure.styles.util :refer :all]))
+            [portfolio-clojure.settings :as settings]
+            [portfolio-clojure.util :refer :all]))
 
 (defstyles header-text
   {:text-decoration "none"
