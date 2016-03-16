@@ -1,45 +1,45 @@
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  out/portfolio_clojure/core.js
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.617 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-notifying browser that file changed:  out/portfolio_clojure/core.js
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.422 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
 notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  out/portfolio_clojure/core.js
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.834 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mERROR: EOF while reading, starting at line 6 and column 3 on file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs, line 7, column 1
+[0mERROR: EOF while reading, starting at line 6 and column 3 on file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs, line 7, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.142 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: No such namespace: gom, could not locate gom.cljs, gom.cljc, or Closure namespace "" at line 6 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var gom/getElement at line 6 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/htlm at line 7 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
+WARNING: No such namespace: gom, could not locate gom.cljs, gom.cljc, or Closure namespace "" at line 6 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var gom/getElement at line 6 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/htlm at line 7 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  out/portfolio_clojure/core.js
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.266 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/htlm at line 7 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/htlm at line 7 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.27 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.253 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.217 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mclojure.lang.ExceptionInfo: Only :as alias and :refer (names) options supported in :require; offending spec: [cljs.core.async [<! <!! >! >!! put! chan go]] at line 1 src/cljs/portfolio_clojure/core.cljs
+[0mclojure.lang.ExceptionInfo: Only :as alias and :refer (names) options supported in :require; offending spec: [cljs.core.async [<! <!! >! >!! put! chan go]] at line 1 src/cljs/portfolio/core.cljs
  at clojure.core$ex_info.invokeStatic (core.clj:4617)
     clojure.core$ex_info.invoke (core.clj:4617)
     cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
@@ -73,281 +73,281 @@ notifying browser that file changed:  out/portfolio_clojure/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.036 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Invalid :refer, var var cljs.core.async/go does not exist in file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs on file null, line null, column null
+[0mANALYSIS ERROR: Invalid :refer, var var cljs.core.async/go does not exist in file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs on file null, line null, column null
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.119 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Invalid :refer, var var cljs.core.async/go does not exist in file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs on file null, line null, column null
+[0mANALYSIS ERROR: Invalid :refer, var var cljs.core.async/go does not exist in file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs on file null, line null, column null
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.136 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  out/portfolio_clojure/core.js
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.195 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.201 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Invalid :refer, var var cljs.core.async/go does not exist in file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs on file null, line null, column null
+[0mANALYSIS ERROR: Invalid :refer, var var cljs.core.async/go does not exist in file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs on file null, line null, column null
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.115 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: No such namespace: cljs.core.async.macros, could not locate cljs/core/async/macros.cljs, cljs/core/async/macros.cljc, or Closure namespace "cljs.core.async.macros" in file src/cljs/portfolio_clojure/core.cljs on file null, line null, column null
+[0mANALYSIS ERROR: No such namespace: cljs.core.async.macros, could not locate cljs/core/async/macros.cljs, cljs/core/async/macros.cljc, or Closure namespace "cljs.core.async.macros" in file src/cljs/portfolio/core.cljs on file null, line null, column null
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.163 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  out/portfolio_clojure/ajax.js
+notifying browser that file changed:  out/portfolio/ajax.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.294 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: No such namespace: cljs.core.async.macros, could not locate cljs/core/async/macros.cljs, cljs/core/async/macros.cljc, or Closure namespace "cljs.core.async.macros" in file src/cljs/portfolio_clojure/core.cljs on file null, line null, column null
+[0mANALYSIS ERROR: No such namespace: cljs.core.async.macros, could not locate cljs/core/async/macros.cljs, cljs/core/async/macros.cljc, or Closure namespace "cljs.core.async.macros" in file src/cljs/portfolio/core.cljs on file null, line null, column null
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.126 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  out/portfolio_clojure/core.js
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.189 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
 [0mANALYSIS ERROR: Assert failed: Wrong number of arguments to recur
-(= (count val-ids) (count recurs)) at line 10 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 10, column 5
+(= (count val-ids) (count recurs)) at line 10 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 10, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.16 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 10 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 11 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/recur at line 12 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 12 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/args at line 10 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 11 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/recur at line 12 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 12 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.283 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 13 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 14 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/recur at line 15 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 15 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/args at line 13 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 14 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/recur at line 15 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 15 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.317 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 14 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 15 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/recur at line 16 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 16 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/args at line 14 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 15 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/recur at line 16 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 16 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.326 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 15 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 16 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/recur at line 17 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/args at line 17 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/args at line 15 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 16 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/recur at line 17 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/args at line 17 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.261 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.288 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.194 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.264 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.222 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.22 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.214 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.225 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in portfolio-clojure.core:17 at line 16 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 16, column 5
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in portfolio.core:17 at line 16 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 16, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.16 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in portfolio-clojure.core:17 at line 16 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 16, column 5
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in portfolio.core:17 at line 16 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 16, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.132 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.214 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mERROR: EOF while reading, starting at line 15 and column 1 on file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs, line 26, column 1
+[0mERROR: EOF while reading, starting at line 15 and column 1 on file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs, line 26, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.102 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.199 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: clojure.lang.PersistentList cannot be cast to clojure.lang.Named at line 10 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 10, column 1
+[0mANALYSIS ERROR: clojure.lang.PersistentList cannot be cast to clojure.lang.Named at line 10 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 10, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.134 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mERROR: EOF while reading, starting at line 14 and column 1 on file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs, line 24, column 1
+[0mERROR: EOF while reading, starting at line 14 and column 1 on file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs, line 24, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.12 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.204 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.223 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.177 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 17 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 17, column 5
+[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 17 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 17, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.157 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 21 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 21, column 11
+[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 21 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 21, column 11
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.19 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 21 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 21, column 11
+[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 21 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 21, column 11
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.133 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/bg at line 22 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/bg at line 22 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.227 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 21 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 21, column 11
+[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 21 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 21, column 11
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.129 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/bg at line 22 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/bg at line 22 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.244 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/bg at line 22 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/bg at line 22 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.211 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mERROR: EOF while reading, starting at line 14 and column 1 on file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs, line 27, column 1
+[0mERROR: EOF while reading, starting at line 14 and column 1 on file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs, line 27, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.115 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (3) passed to: core/for at line 17 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 17, column 5
+[0mANALYSIS ERROR: Wrong number of args (3) passed to: core/for at line 17 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 17, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.126 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.231 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.233 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.189 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.248 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.245 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.257 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mERROR: EOF while reading, starting at line 16 and column 1 on file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs, line 28, column 1
+[0mERROR: EOF while reading, starting at line 16 and column 1 on file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs, line 28, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.117 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.156 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.126 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.17 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.145 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.234 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.243 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.246 seconds.[0m
 sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.309 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.202 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.239 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.157 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.155 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.258 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.287 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.209 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.217 seconds.[0m
 sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
@@ -356,125 +356,857 @@ sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.237 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.232 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.147 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.152 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 19, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 19 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 19, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.129 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.178 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.105 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.142 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.16 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/aget at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.135 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.191 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mERROR: EOF while reading, starting at line 16 and column 1 on file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs, line 28, column 1
+[0mERROR: EOF while reading, starting at line 16 and column 1 on file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs, line 28, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.112 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/-style at line 23 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/-style at line 23 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.206 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/-style at line 24 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/-style at line 24 src/cljs/portfolio_clojure/core.cljs
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/-style at line 24 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/-style at line 24 src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.26 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.242 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.235 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mERROR: EOF while reading, starting at line 16 and column 1 on file /home/danielrs/portfolio-clojure/src/cljs/portfolio_clojure/core.cljs, line 29, column 1
+[0mERROR: EOF while reading, starting at line 16 and column 1 on file /home/danielrs/portfolio/src/cljs/portfolio/core.cljs, line 29, column 1
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.096 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.142 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.112 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: core/-DOT--DOT- at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.157 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Can't set! local var or non-mutable field at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Can't set! local var or non-mutable field at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.11 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: Can't set! local var or non-mutable field at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: Can't set! local var or non-mutable field at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.141 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
 [31mCompiling "target/cljsbuild/public/js/app.js" failed.
-[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 20 src/cljs/portfolio_clojure/core.cljs on file src/cljs/portfolio_clojure/core.cljs, line 20, column 5
+[0mANALYSIS ERROR: set! target must be a field or a symbol naming a var at line 20 src/cljs/portfolio/core.cljs on file src/cljs/portfolio/core.cljs, line 20, column 5
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.151 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.186 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.236 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.193 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.246 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.215 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.244 seconds.[0m
 [0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
-WARNING: Use of undeclared Var portfolio-clojure.core/mount-components at line 9 env/dev/cljs/portfolio_clojure/dev.cljs
-notifying browser that file changed:  out/portfolio_clojure/core.js
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.23 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.322 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.298 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.252 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.236 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/portfolio/home.cljs
+ at cljs.analyzer$parse_ns$fn__3658.invoke (analyzer.cljc:2755)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2706)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2687)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2697)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2687)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1415)
+    cljs.compiler$find_source.invoke (compiler.cljc:1414)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:521)
+    clojure.core$seq__4357.invokeStatic (core.clj:137)
+    clojure.core$concat$cat__4448$fn__4449.invoke (core.clj:715)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:755)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:749)
+    cljs.closure$build.invokeStatic (closure.clj:1893)
+    cljs.closure$build.invoke (closure.clj:1837)
+    cljs.build.api$build.invokeStatic (api.clj:207)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:24)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:23)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19354.invoke (injection.clj:139)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.047 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.253 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/portfolio/util.cljs
+ at cljs.analyzer$parse_ns$fn__3658.invoke (analyzer.cljc:2755)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2706)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2687)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2697)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2687)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1415)
+    cljs.compiler$find_source.invoke (compiler.cljc:1414)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:521)
+    clojure.core$seq__4357.invokeStatic (core.clj:137)
+    clojure.core$concat$cat__4448$fn__4449.invoke (core.clj:715)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:755)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:749)
+    cljs.closure$build.invokeStatic (closure.clj:1893)
+    cljs.closure$build.invoke (closure.clj:1837)
+    cljs.build.api$build.invokeStatic (api.clj:207)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:24)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:23)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19354.invoke (injection.clj:139)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.027 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 6 src/cljs/portfolio/util.cljs
+WARNING: Use of undeclared Var events/listen at line 6 src/cljs/portfolio/util.cljs
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/util.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.192 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/home.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.033 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/core.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.028 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/core.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.029 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/core.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.032 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/core.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.032 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/core.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.029 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/core.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.026 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 10 src/cljs/portfolio/util.cljs
+WARNING: Use of undeclared Var events/listen at line 10 src/cljs/portfolio/util.cljs
+WARNING: Use of undeclared Var portfolio.core/event->chan at line 9 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+WARNING: Use of undeclared Var portfolio.home/event->chan at line 9 src/cljs/portfolio/home.cljs
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.361 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/event->chan at line 9 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+WARNING: Use of undeclared Var portfolio.home/event->chan at line 9 src/cljs/portfolio/home.cljs
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/util.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.285 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: :refer must be followed by a sequence of symbols in :require / :require-macros; offending spec: [portfolio.util :refer :all] at line 1 src/cljs/portfolio/home.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:576)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:574)
+    cljs.analyzer$error.invoke (analyzer.cljc:572)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1775)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1747)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$reduce1.invokeStatic (core.clj:915)
+    clojure.core$merge_with.invokeStatic (core.clj:2950)
+    clojure.core$merge_with.doInvoke (core.clj:2942)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval3359$fn__3361$fn__3366.invoke (analyzer.cljc:1938)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.029 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.212 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.187 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mclojure.lang.ExceptionInfo: Unmatched delimiter )
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:331)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:327)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_unmatched_delimiter.invokeStatic (reader.clj:76)
+    clojure.tools.reader$read_unmatched_delimiter.invoke (reader.clj:74)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___3642$fn__3643$fn__3644.invoke (analyzer.cljc:2650)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.032 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.283 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.229 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.178 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.26 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.193 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.258 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.183 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.192 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.2 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.184 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mERROR: EOF while reading, starting at line 22 and column 1 on file /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/home.cljs, line 25, column 1
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.153 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.197 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/mount-components at line 9 env/dev/cljs/portfolio/dev.cljs
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.25 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/app.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.263 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljc" "src/cljs"]...
+notifying browser that file changed:  target/cljsbuild/public/js/app.js
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.192 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljc" "src/cljs"]...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.169 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.36 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.342 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.28 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.306 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.271 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.23 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.353 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.318 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.316 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mERROR: EOF while reading, starting at line 19 and column 1 on file /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/home.cljs, line 29, column 1
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.135 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mERROR: EOF while reading, starting at line 19 and column 1 on file /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/home.cljs, line 29, column 1
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.137 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.274 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.306 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mERROR: EOF while reading, starting at line 21 and column 5 on file /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs, line 28, column 1
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.162 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.236 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.572 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+WARNING: Use of undeclared Var portfolio.core/bg at line 15 /home/danielrs/Development/Projects/portfolio/src/cljs/portfolio/core.cljs
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.216 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.187 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/core.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.202 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+[31mCompiling "target/cljsbuild/public/js/app.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljc/portfolio/settings.cljc
+ at cljs.analyzer$parse_ns$fn__3658.invoke (analyzer.cljc:2755)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2706)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2687)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2697)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2687)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1415)
+    cljs.compiler$find_source.invoke (compiler.cljc:1414)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:521)
+    clojure.core$seq__4357.invokeStatic (core.clj:137)
+    clojure.core$concat$fn__4446.invoke (core.clj:706)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:521)
+    clojure.core$seq__4357.invokeStatic (core.clj:137)
+    clojure.core$concat$cat__4448$fn__4449.invoke (core.clj:715)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:755)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:749)
+    cljs.closure$build.invokeStatic (closure.clj:1893)
+    cljs.closure$build.invoke (closure.clj:1837)
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.045 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: record? already refers to: cljs.core/record? being replaced by: garden.util/record? at line 87 target/cljsbuild/public/js/out/garden/util.cljs
+WARNING: Bad method signature in protocol implementation, IFn does not declare method called invoke at line 20 target/cljsbuild/public/js/out/garden/color.cljs
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.139 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.221 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.241 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.214 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.187 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.694 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.259 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.259 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.272 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.244 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.232 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.253 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.244 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.219 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.214 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.278 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.245 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.236 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.282 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.245 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.24 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.226 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css

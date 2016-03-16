@@ -1,4 +1,4 @@
-(defproject portfolio-clojure "0.1.0-SNAPSHOT"
+(defproject portfolio "0.1.0-SNAPSHOT"
 
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
@@ -41,7 +41,7 @@
   :source-paths ["src/clj" "src/cljc"]
   :resource-paths ["resources" "target/cljsbuild"]
 
-  :main portfolio-clojure.core
+  :main portfolio.core
 
   :plugins [[lein-cprop "1.0.1"]
             [lein-cljsbuild "1.1.1"]
@@ -76,7 +76,7 @@
                   {:externs-validation :off :non-standard-jsdoc :off}}}}}
 
              :aot :all
-             :uberjar-name "portfolio-clojure.jar"
+             :uberjar-name "portfolio.jar"
              :source-paths ["env/prod/clj"]
              :resource-paths ["env/prod/resources"]}
    :dev           [:project/dev :profiles/dev]
@@ -95,7 +95,7 @@
                     {:app
                      {:source-paths ["env/dev/cljs"]
                       :compiler
-                      {:main "portfolio-clojure.app"
+                      {:main "portfolio.app"
                        :asset-path "/js/out"
                        :optimizations :none
                        :source-map true}}
@@ -103,7 +103,7 @@
                      {:source-paths ["src/cljc" "src/cljs" "test/cljs"]
                       :compiler
                       {:output-to "target/test.js"
-                       :main "portfolio-clojure.doo-runner"
+                       :main "portfolio.doo-runner"
                        :optimizations :whitespace
                        :pretty-print true}}}}
 
@@ -111,7 +111,7 @@
                   {:http-server-root "public"
                    :nrepl-port 7002
                    :css-dirs ["resources/public/css"]
-                   :ring-handler portfolio-clojure.handler/app}
+                   :ring-handler portfolio.handler/app}
                   :doo {:build "test"}
                   :source-paths ["env/dev/clj" "test/clj"]
                   :resource-paths ["env/dev/resources"]
@@ -127,6 +127,6 @@
   ;; Plugins
   :garden {:builds [{:id "screen"
                      :source-paths ["src/styles"]
-                     :stylesheet portfolio-clojure.core/screen
+                     :stylesheet portfolio.core/screen
                      :compiler {:output-to "resources/public/css/screen.css"
                                 :pretty-print? true}}]})

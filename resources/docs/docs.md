@@ -2,12 +2,12 @@
 
 ### Managing Your Middleware
 
-Request middleware functions are located under the `portfolio-clojure.middleware` namespace.
+Request middleware functions are located under the `portfolio.middleware` namespace.
 
 This namespace is reserved for any custom middleware for the application. Some default middleware is
 already defined here. The middleware is assembled in the `wrap-base` function.
 
-Middleware used for development is placed in the `portfolio-clojure.dev-middleware` namespace found in
+Middleware used for development is placed in the `portfolio.dev-middleware` namespace found in
 the `env/dev/clj/` source path.
 
 ### Here are some links to get started

@@ -6,7 +6,8 @@
   top: 0;
   left: 0;
   right: 0;
-  background: #888;
+  background: #333333;
+  transition: background .125s;
 }
 
 #navbar:after {
@@ -88,7 +89,8 @@
   height: 100vh;
   padding: 6em 1em 2em;
   overflow: hidden;
-  background: repeat url(../img/footer_lodyas.png) #888;
+  background: repeat url(../img/footer_lodyas.png) transparent;
+  background-color: #333333;
 }
 
 #mega-brand .mega-brand__content {
@@ -147,7 +149,7 @@
 
 #footer {
   padding: 2em;
-  background: #888;
+  background: #333333;
 }
 
 body {
@@ -178,6 +180,10 @@ html {
   font-family: Open Sans, sans-serif;
 }
 
+body {
+  color: #222222;
+}
+
 code {
   font-family: Inconsolata, monospace;
 }
@@ -187,7 +193,11 @@ h1, h2 {
 }
 
 a {
-  color: #888;
+  color: #999999;
+}
+
+a:hover {
+  color: #333333;
 }
 
 .blog-entries article.post {
@@ -198,6 +208,12 @@ a {
   display: inline-block;
   font-family: Open Sans, sans-serif;
   font-size: 1.25em;
+  font-weight: normal;
+}
+
+.blog-entries article.post h1 a {
+  color: #2185c5;
+  text-decoration: none;
 }
 
 .blog-entries article.post h1, .blog-entries article.post p {
@@ -208,4 +224,5 @@ a {
 .blog-entries article.post .post__metadata {
   display: inline-block;
   margin-bottom: 0.5em;
+  color: #cccccc;
 }
