@@ -15,13 +15,13 @@ To start a web server for the application, run:
 
 I use [luminus][luminus] framework with the default web stack (Compojure and Ring).
 
-### CSS
+### Garden
 
 [Garden][garden] as a CSS pre-processor replacement.
 
-### Javascript
+### ClojureScript
 
-[ClojureScript][clojurescript] as Javascript replacement, this allows code sharing between the client and the server.
+[ClojureScript][clojurescript] is the Javascript replacement, this allows code sharing between the client and the server.
 
 ## License
 
