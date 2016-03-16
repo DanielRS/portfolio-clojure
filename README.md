@@ -1,14 +1,7 @@
-# portfolio
+# Portfolio
 
-generated using Luminus version "2.9.10.23"
-
-FIXME
-
-## Prerequisites
-
-You will need [Leiningen][1] 2.0 or above installed.
-
-[1]: https://github.com/technomancy/leiningen
+Source code for my personal website; this is a new version written
+in Clojure and Luminus. The [old one][portfolio-old] was written in Haskell:
 
 ## Running
 
@@ -16,13 +9,11 @@ To start a web server for the application, run:
 
     lein run
 
-
-## Inspiration
-
-http://www.adhamdannaway.com/
-http://haraldurthorleifsson.com/
-http://keithclark.co.uk/
-
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 MIT
+
+[clojure]: https://clojure.org/
+[clojurescript]: https://github.com/clojure/clojurescript
+[luminus]: http://www.luminusweb.net/
+[portfolio-old]: https://github.com/DanielRS/portfolio-haskell
