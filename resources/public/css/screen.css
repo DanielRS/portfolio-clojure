@@ -1,12 +1,70 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Josefin+Slab:400,700|Inconsolata:400,700);
 
+html {
+  font-size: 1.125rem;
+  font-family: Open Sans, sans-serif;
+}
+
+body {
+  color: #666666;
+}
+
+code {
+  font-family: Inconsolata, monospace;
+}
+
+h1, h2 {
+  color: #3e454c;
+  font-family: Josefin Slab, serif;
+}
+
+a {
+  color: #808080;
+}
+
+a:visited {
+  color: #b3b3b3;
+}
+
+a:hover {
+  color: #4d4d4d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body #content {
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+body #content.content__home {
+  padding-top: 0em;
+}
+
+body .container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+body .section {
+  padding: 2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 #navbar {
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
   right: 0;
-  background: #333333;
+  background: #b3b3b3;
   transition: background .125s;
 }
 
@@ -90,7 +148,7 @@
   padding: 6em 1em 2em;
   overflow: hidden;
   background: repeat url(../img/footer_lodyas.png) transparent;
-  background-color: #333333;
+  background-color: #b3b3b3;
 }
 
 #mega-brand .mega-brand__content {
@@ -127,6 +185,7 @@
   margin: 0;
   font-size: 6em;
   font-weight: normal;
+  color: #ffffff;
 }
 
 #mega-brand .mega-brand__content .mega-brand__header #tagline {
@@ -148,56 +207,136 @@
 }
 
 #footer {
-  padding: 2em;
-  background: #333333;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body #content {
-  padding-top: 4em;
+  padding-top: 1em;
   padding-bottom: 2em;
+  border-top: 1px solid transparent;
+  border-color: #e6e6e6;
 }
 
-body #content.content__home {
-  padding-top: 0em;
+#footer:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-body .container {
-  max-width: 1024px;
-  margin: auto;
+@media screen and (min-width: 720px) {
+
+  #footer #copyright {
+    font-family: Josefin Slab;
+    float: left;
+    clear: none;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  
+  #footer #copyright:last-child {
+    margin-right: 0%;
+  }
+  
+  #footer #navbar--footer {
+    float: left;
+    clear: none;
+    width: 22.75%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  
+  #footer #navbar--footer:last-child {
+    margin-right: 0%;
+  }
+  
+  #footer #social {
+    float: left;
+    clear: none;
+    width: 22.75%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  
+  #footer #social:last-child {
+    margin-right: 0%;
+  }
+
 }
 
-body .section {
-  padding: 2em;
+.project-list:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-html {
-  font-size: 1.125rem;
-  font-family: Open Sans, sans-serif;
+.project-list:hover .project {
+  opacity: .5;
 }
 
-body {
-  color: #222222;
+.project-list .project {
+  box-sizing: border-box;
+  padding: 1.5em;
+  transition: box-shadow .25s, opacity .25s;
 }
 
-code {
-  font-family: Inconsolata, monospace;
+@media screen and (min-width: 720px) {
+
+  .project-list .project {
+    float: left;
+    clear: none;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  
+  
+  .project-list .project:nth-of-type(n) {
+    margin-right: 0%;
+    float: left;
+    clear: none;
+  }
+  
+  .project-list .project:nth-of-type(2n) {
+    margin-right: 0%;
+    float: right;
+  }
+  
+  .project-list .project:nth-of-type(2n+1) {
+    clear: both;
+  }
+
 }
 
-h1, h2 {
-  font-family: Josefin Slab, serif;
+@media screen and (min-width: 1024px) {
+
+  .project-list .project {
+    float: left;
+    clear: none;
+    width: 33.333332%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  
+  
+  .project-list .project:nth-of-type(n) {
+    margin-right: 0%;
+    float: left;
+    clear: none;
+  }
+  
+  .project-list .project:nth-of-type(3n) {
+    margin-right: 0%;
+    float: right;
+  }
+  
+  .project-list .project:nth-of-type(3n+1) {
+    clear: both;
+  }
+
 }
 
-a {
-  color: #999999;
-}
-
-a:hover {
-  color: #333333;
+.project-list .project:hover {
+  opacity: 1;
+  box-shadow: 0 0 24px rgba(0, 0, 0, .25);
 }
 
 .blog-entries article.post {
@@ -212,7 +351,6 @@ a:hover {
 }
 
 .blog-entries article.post h1 a {
-  color: #2185c5;
   text-decoration: none;
 }
 
@@ -224,5 +362,6 @@ a:hover {
 .blog-entries article.post .post__metadata {
   display: inline-block;
   margin-bottom: 0.5em;
-  color: #cccccc;
+  color: #808080;
+  font-style: italic;
 }

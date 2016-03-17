@@ -126,7 +126,7 @@
 
   ;; Plugins
   :garden {:builds [{:id "screen"
-                     :source-paths ["src/styles"]
+                     :source-paths ["src/styles", "src/cljc"]
                      :stylesheet portfolio.core/screen
                      :compiler {:output-to "resources/public/css/screen.css"
                                 :pretty-print? true}}]})

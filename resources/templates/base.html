@@ -7,6 +7,7 @@
 
     <!-- styles -->
     <!-- {% style "/assets/bootstrap/css/bootstrap.min.css" %} -->
+    {% style "/assets/font-awesome/css/font-awesome.min.css" %}
 
     {% style "/css/screen.css" %}
   </head>
@@ -43,7 +44,31 @@
       {% endblock %}
     </div>
 
-    <footer id="footer" role="footer">
+    <footer id="footer" role="footer" class="container">
+      <p id="copyright">
+        Copyright © 2016, Daniel Rivas
+      </p>
+
+      <div id="navbar--footer">
+        <h2>Navigate</h2>
+        <ul>
+          {% for item in menu %}
+          <li><a href="{{servlet-context}}{{item.route}}"/>{{item.caption}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div id="social">
+        <h2>Social</h2>
+        <ul>
+          {% for item in social %}
+          <li>
+            <i class="fa {{item.fa-icon}}"></i>
+            <a href="{{item.url}}">{{item.caption}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </footer>
 
     <!-- scripts -->

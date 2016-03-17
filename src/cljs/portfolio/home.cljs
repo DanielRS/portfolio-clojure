@@ -15,7 +15,7 @@
 (defn background-change! []
   (let [scroll-y (.-y (dom/getDocumentScroll))]
     (if (> scroll-y 0)
-      (set-background! nav (as-hex settings/color-black))
+      (set-background! nav (as-hex settings/gray-3))
       (set-background! nav "transparent"))))
 
 (defn scroll-handler! []

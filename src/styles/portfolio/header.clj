@@ -18,7 +18,7 @@
                  :padding "6em 1em 2em"
                  :overflow "hidden"
                  :background "repeat url(../img/footer_lodyas.png) transparent"
-                 :background-color settings/color-black}
+                 :background-color settings/gray-3}
 
    [:.mega-brand__content {:position "absolute"
                            :top "50%"
@@ -27,14 +27,16 @@
                            :text-align "left"
                            :transform "translate(-50%, -50%)"}
 
-    [:.mega-brand__header {:font-size (em 0.5) :text-align "center"}
+    [:.mega-brand__header {:font-size (em 0.5)
+                           :text-align "center"}
 
      (at-screen-s [:& {:font-size (em 0.75)}])
      (at-screen-m [:& {:font-size (em 1)}])
 
      [:h1 {:margin 0
            :font-size (em 6)
-           :font-weight "normal"}]
+           :font-weight "normal"
+           :color settings/color-white}]
      [:#tagline {:font-size (em 3)}]]]])
 
 
@@ -45,7 +47,7 @@
              :top 0
              :left 0
              :right 0
-             :background settings/color-black
+             :background settings/gray-3
              :transition "background .125s"}
    clearfix
 

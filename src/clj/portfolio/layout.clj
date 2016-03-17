@@ -33,6 +33,22 @@
             :top-level "blog.html"
             :route (str "/" "blog")}])
 
+(def social [{:caption "GitHub"
+              :url "https://github.com/DanielRS"
+              :fa-icon "fa-github-alt"}
+
+             {:caption "StackOverflow"
+              :url "http://stackoverflow.com/users/3932019/danielrs"
+              :fa-icon "fa-stack-overflow"}
+
+             {:caption "LinkedIn"
+              :url "https://www.linkedin.com/in/daniel-rivas-364a6592"
+              :fa-icon "fa-linkedin"}
+
+             {:caption "Twitter"
+              :url "https://twitter.com/devDanielRS"
+              :fa-icon "fa-twitter"}])
+
 (defn render
   "renders the HTML template located relative to resources/templates"
   [template & [params]]
@@ -42,6 +58,7 @@
         template
         (assoc params
           :menu menu
+          :social social
           :page template
           :csrf-token *anti-forgery-token*
           :servlet-context *app-context*)))

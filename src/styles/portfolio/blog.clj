@@ -15,10 +15,11 @@
           :font-family ["Open Sans" "sans-serif"]
           :font-size (em 1.25)
           :font-weight "normal"}
-     [:a {:color settings/color-2 :text-decoration "none"}]]
+     [:a {:text-decoration "none"}]]
 
     [:h1 :p {:margin 0 :padding 0}]
 
     [:.post__metadata {:display "inline-block"
                        :margin-bottom (em 0.5)
-                       :color settings/color-gray}]]])
+                       :color settings/gray-5
+                       :font-style "italic"}]]])

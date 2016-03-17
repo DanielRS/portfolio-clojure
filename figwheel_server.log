@@ -1210,3 +1210,276 @@ sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
 sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.217 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.352 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.278 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.294 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.231 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.273 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.245 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.321 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 21 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 22 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 23 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 24 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 25 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 26 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 27 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 28 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 29 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 30 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 31 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-dark-gray at line 34 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-gray at line 18 src/cljs/portfolio/home.cljs
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.395 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 21 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 22 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 23 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 24 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 25 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 26 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 27 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 28 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 29 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 30 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 31 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-dark-gray at line 33 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-gray at line 18 src/cljs/portfolio/home.cljs
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.386 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 21 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 22 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 23 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 24 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 25 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 26 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 27 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 28 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 29 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 30 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-white at line 31 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-dark-gray at line 33 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-gray at line 18 src/cljs/portfolio/home.cljs
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.432 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.settings/color-dark-gray at line 34 src/cljc/portfolio/settings.cljc
+WARNING: Use of undeclared Var portfolio.settings/color-gray at line 18 src/cljs/portfolio/home.cljs
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.3 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+WARNING: Use of undeclared Var portfolio.settings/color-gray at line 18 src/cljs/portfolio/home.cljs
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.326 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.229 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.276 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.219 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/home.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.245 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.234 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.279 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.225 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.257 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.252 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.236 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ("src/cljc" "src/cljs" "env/dev/cljs")...
+notifying browser that file changed:  out/portfolio/settings.js
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.255 seconds.[0m
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
+sending changed CSS file: resources/public/css/screen.css
