@@ -9,10 +9,10 @@
                  [ring-middleware-format "0.7.0"]
                  [metosin/ring-http-response "0.6.5"]
                  [bouncer "1.0.0"]
-                 [org.webjars/bootstrap "4.0.0-alpha.2"]
                  [org.webjars/font-awesome "4.5.0"]
                  [org.webjars.bower/tether "1.1.1"]
                  [org.webjars/jquery "2.2.1"]
+                 [org.webjars/normalize.css "3.0.2"]
                  [org.clojure/tools.logging "0.3.1"]
                  [compojure "1.5.0"]
                  [ring-webjars "0.1.1"]
@@ -33,6 +33,7 @@
                  [luminus-log4j "0.1.3"]
                  ;; Other
                  [garden "1.3.2"]
+                 [deraen/sass4clj "0.2.1"]
                  [thinktopic/greenhouse "0.1.1"]]
 
   :min-lein-version "2.0.0"
@@ -45,7 +46,8 @@
 
   :plugins [[lein-cprop "1.0.1"]
             [lein-cljsbuild "1.1.1"]
-            [lein-garden "0.2.4"]]
+            [lein-garden "0.2.4"]
+            [lein-pprint "1.1.1"]]
 
   :clean-targets ^{:protect false}
   [:target-path [:cljsbuild :builds :app :compiler :output-dir] [:cljsbuild :builds :app :compiler :output-to]]
@@ -126,7 +128,9 @@
 
   ;; Plugins
   :garden {:builds [{:id "screen"
-                     :source-paths ["src/styles", "src/cljc"]
+                     :source-paths ["src-styles", "src/cljc"]
                      :stylesheet portfolio.core/screen
                      :compiler {:output-to "resources/public/css/screen.css"
-                                :pretty-print? true}}]})
+                                :pretty-print? true}}]}
+
+  :sass4clj {:source-paths ["src-styles/scss"]})

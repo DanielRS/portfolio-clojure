@@ -12,8 +12,8 @@
 (defn parallax-scroll! []
   (let [scroll-y (.-y (dom/getDocumentScroll))]
     (doseq [el parallax-elements]
-      (set! (.-backgroundPosition (.-style el))
-            (str "0% " (str (* scroll-y 0.5) "px"))))))
+      (set! (.-backgroundPositionY (.-style el))
+            (str (* scroll-y 0.5) "px")))))
 
 (defn scroll-handler! []
   (let [c (event->chan js/window "scroll")]

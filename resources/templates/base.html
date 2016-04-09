@@ -7,6 +7,7 @@
 
     <!-- styles -->
     <!-- {% style "/assets/bootstrap/css/bootstrap.min.css" %} -->
+    {% style "/assets/normalize.css/normalize.css" %}
     {% style "/assets/font-awesome/css/font-awesome.min.css" %}
 
     {% style "/css/screen.css" %}
@@ -45,19 +46,6 @@
     </div>
 
     <footer id="footer" role="footer" class="container">
-      <p id="copyright">
-        Copyright © 2016, Daniel Rivas
-      </p>
-
-      <div id="navbar--footer">
-        <h2>Navigate</h2>
-        <ul>
-          {% for item in menu %}
-          <li><a href="{{servlet-context}}{{item.route}}"/>{{item.caption}}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-
       <div id="social">
         <h2>Social</h2>
         <ul>
@@ -69,12 +57,26 @@
           {% endfor %}
         </ul>
       </div>
+
+      <div id="navbar--footer">
+        <h2>Navigate</h2>
+        <ul>
+          {% for item in menu %}
+          <li><a href="{{servlet-context}}{{item.route}}"/>{{item.caption}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <p id="copyright">
+        Copyright © 2016, Daniel Rivas
+      </p>
     </footer>
 
     <!-- scripts -->
-    <!-- {% script "/assets/jquery/jquery.min.js" %} -->
+    {% script "/assets/jquery/jquery.min.js" %}
     <!-- {% script "/assets/tether/dist/js/tether.min.js" %} -->
     <!-- {% script "/assets/bootstrap/js/bootstrap.min.js" %} -->
+    {% script "https://cdn.rawgit.com/DanielRS/typing.js/master/dist/typing.min.js" %}
 
     <script type="text/javascript">
       var context = "{{servlet-context}}";

@@ -13,13 +13,12 @@
 
     [:h1 {:display "inline-block"
           :font-family ["Open Sans" "sans-serif"]
-          :font-size (em 1.25)
-          :font-weight "normal"}
-     [:a {:text-decoration "none"}]]
+          :font-size (em 1.5)
+          :font-weight "normal"}]
 
     [:h1 :p {:margin 0 :padding 0}]
 
     [:.post__metadata {:display "inline-block"
                        :margin-bottom (em 0.5)
-                       :color settings/gray-5
+                       :color settings/color-gray-5
                        :font-style "italic"}]]])
